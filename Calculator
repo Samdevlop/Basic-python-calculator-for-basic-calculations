@@ -1,0 +1,42 @@
+#Working on calculator program
+
+choice = input("Enter your choice:")
+if (choice =="add"):
+  add1 = int(input("Enter first number :"))
+  add2 = int(input("Enter second number"))
+  print (add1+add2)
+
+if (choice == "subtract"):
+  sub1 = int(input("Enter first number :"))
+  sub2 = int(input("Enter second number :"))
+  print (sub1-sub2)
+
+if (choice == "multiply"):
+  mul1 = int(input("Enter first number :"))
+  mul2 = int(input("Enter second number :"))
+  print (mul1*mul2)
+
+if (choice == "divide"):
+  div1 = int(input("Enter first number :"))
+  div2 = int(input("Enter second number :"))
+  print (div1/div2)
+
+if (choice == "exponent"):
+  exp1 = int(input("Enter first number :"))
+  exp2 = int(input("Enter second number :"))
+  print (exp1**exp2)
+
+if (choice == "remainder"):
+  rem1 = int(input("Enter first number :"))
+  rem2 = int(input("Enter second number :"))
+  print (rem1%rem2)
+
+
+
+
+
+
+  
+
+  
+  
